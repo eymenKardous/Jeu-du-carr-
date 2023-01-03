@@ -1,0 +1,58 @@
+body{
+    background-color: #516F8F;
+}
+
+h1{
+    text-align: center;
+    color: #FFE570;
+} 
+
+.optionContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gameDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gameDetails div{
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: #FFE570;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+.gameContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 670px;
+    width: 99vw;
+    background-color: #AEAFDA;
+}
+
+
+input{
+    text-align: center;
+}
+
+.restart{
+    color: black;
+    font-style: none;
+}
